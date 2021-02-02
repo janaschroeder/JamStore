@@ -1,117 +1,56 @@
 body {
-    background-color: BlanchedAlmond ;
-    font-size: 67.5%;
-    font-family: Tahoma, Geneva, sans-serif;
-    padding: 0;
-x    margin: 0;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    background-size: 100% 100%;
-    -o-background-size: 100% 100%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-color: burlywood;
+color: forestgreen
+}
+header {
+    background-color: springgreen;
+    color: saddlebrown
+}
+footer {
+    background-color: springgreen;
+    color: saddlebrown
 }
 h1 {
-    color: #2BA967;
-    font-size: 2.0em;
-    margin: 0.5em 0 0.5em 0;
-    padding: 0;
+    font-size:x-large;
+    color: darkgreen;
+    text-align: center
 }
 h2 {
-    color: #2BA967;
-       font-size: 1.7em;
-    padding: 0px;
-    margin: 0.5em 0 0.35em 0;
+    font-size: large;
+    text-align: center
 }
-p {
-    font-size: 1.2em;
-    line-height: 1.4em;
-    color: #555;
-    margin: 0px 0.5em 0.75em 0px;
+h3 {
+    font-size: medium;
+color: saddlebrown
+}      
+.pho    to1 {
+width: 40%;
+border-color: saddlebrown;
+border-width: medium;
+border-style: groove;
+margin: 8rem, 10rem, 8rem, 10rem;
+    }
+#UtilityMenu {
+width: 10%;
+float: right;
+color: steelblue
 }
-div.top {
-    width: 100%;
-    height: 250px;       
-    background-image: #39150C url(img/Pear_Tree.jpg) no-repeat fixed top center;
-    width: 200px; height: 250px
-    }
-    nav {
-        background-color: SpringGreen;
-                    font-size: 1.7em;
-        letter-spacing: 0.04em;
-        padding: 1.0em 1.0em 0.5em;
-        margin: 1.0em 0 ;
-    }
-    nav ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-    nav li {
-        display: inline-block;
-        margin: 0;
-    }
-    nav#utilityMenu {
-        float: right;
-        margin: -1.5em 0 0 0;
-        padding: 0.35em;
-        height: 1.3em;
-    }
-    nav#utilityMenu li {
-        padding: 0 0.25em 0 0.2em;
-        vertical-align: middle;    
-    }
-    section#sidebar {
-        width: 238px;
-        float: left;
-        position: relative;
-        display: block;
-        
-        margin: 1.5em 0 3.0em 1.5em;
-        padding: 1.7em 0.5em 2.0em 1.7em;
-       }
-       section #main {
-       
-        margin: 0 0 2.0em;
-        padding: 1.5em  0 2.0em 1.5em;
-        display: inline-block;
-       }      
-        section div.photo1{
-        float: right;
-        position: relative;
-        width: 500px;
-        height: 500px;
-        margin: 0 0.5em 2.0em 0.5em;
-        padding: 1.0em;
-                border: SpringGreen dashed 1px;
-        border-radius: 0.6em;
-       }
-       section div.photo1 img.Dan_in_Garden {
-        width: 90%;
-        height: 90%;
-       }
-       footer {
-        background-color: SpringGreen;
-        height: 25px;
-        font-size: 1.2em;
-              text-align: center;
-        padding: 1.5em 2.0em;
-    }
-    footer ul#menuFooter {
-        display: inline-block;
-        list-style: none;
-        margin: 0 0 0 0.6em;
-        padding: 0;
-    }
-    footer ul li {
-        display: inline-block;
-        padding: 0 0.7em 0 0;
-        margin: 0;
-    }
-    footer ul li::before {
-        content: "| ";
-        padding-right: 0.7em;
-    }
-    div.clear { 
-        clear:both;
-        font-size: 1%;
-    }
-    
+#SiteMenu {
+width: 10%;
+float: left;
+color: steelblue
+}
+.sidebar {
+width: 30%;
+float: left ;
+background-color: springgreen;
+}
+.main {
+background-color: palegreen;
+
+}footer {
+-ms-text-combine-horizontal: all;
+background-color: springgreen;
+color: saddlebrown
+}
